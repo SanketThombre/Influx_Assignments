@@ -5,7 +5,7 @@ export const Header = () => {
     return (
 
             <div className="header" >
-               <img src="https://www.fullstackpython.com/img/logos/react.png" width="100px" alt="React logo"/> 
+               <img src="https://www.fullstackpython.com/img/logos/react.png" width="120px" alt="React logo"/> 
             <div className="userName">
                
                    
