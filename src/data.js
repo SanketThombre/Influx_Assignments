@@ -51,7 +51,7 @@
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
-            "image": "http://images6.fanpop.com/image/polls/1444000/1444286_1419612687826_full.jpg?v=1419612709"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDIdIEoKmi101JPpAOEpsDz65yTL315CgWly8LwDI&s"
         },
         {
             "id": 2,
@@ -59,7 +59,7 @@
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
-            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtkmN856coZk4VznBQur_FJQ6HSSynWjGiN1-9Y_C2T8LIXCHvRTLjH6Y3sfSlWgo5Fg&usqp=CAU"
         },
         {
             "id": 3,
@@ -67,14 +67,14 @@
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
-            "image": "http://images6.fanpop.com/image/polls/1444000/1444286_1419612687826_full.jpg?v=1419612709"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDIdIEoKmi101JPpAOEpsDz65yTL315CgWly8LwDI&s"
         },
         {
             "id": 4,
             "name":"John Wick",
-            "time": "",
+            "time": "11:01",
             "day": "Yesterday",
-            "message": "Denouncing pleasure and praising pain was born and I will give you a complete and praising pain was born and I will give you a complete account of the system.",
-            "image": "http://images6.fanpop.com/image/polls/1444000/1444286_1419612687826_full.jpg?v=1419612709"
+            "message": "Denouncing pleasure and praising pain was born and I will give you a complete.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtkmN856coZk4VznBQur_FJQ6HSSynWjGiN1-9Y_C2T8LIXCHvRTLjH6Y3sfSlWgo5Fg&usqp=CAU"
         }
     ]

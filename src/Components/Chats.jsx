@@ -2,6 +2,7 @@
 import chatImg from "../Images/chats.png"
 import { chats } from "../data";
 import './All_Pages.css';
+import {BsCalendar3} from "react-icons/bs"
 
 export const Chats = () => {
     console.log(chats)
@@ -12,31 +13,31 @@ export const Chats = () => {
                 <h4>Chat Box</h4>
             </div>
 
-            <div>
+            <div className="conversationBox" style={{ padding:"10px 25px"}}>
 
             {chats.map((e) =>
              <div key={e.id} className="chatting">
 
                     {e.name === "Viggo" ?
-                        <div>
+                        <div className="conversation">
                             <div>
-                                <img src={e.image} width="50px" height="50px" alt="ReceiverImg" />
+                                <img className="receiverImg" src={e.image} width="50px" height="50px" alt="ReceiverImg" />
                             </div>
-                            <div>
+                            <div style={{textAlign: "left"}}>
                                 
-                                <div><p>{e.message}</p></div>
+                                <div className="receiverMessage"><p>{e.message}</p></div>
                                 
-                                <p>{e.time} | { e.day}</p>
+                                <p className="date"><BsCalendar3/> {e.time} | { e.day}</p>
                             </div>
-                        </div> : <div>
+                        </div> : <div className="conversation">
+                             <div style={{textAlign: "right"}}>
+                                
+                                <div className="senderMessage"><p>{e.message}</p></div>
+                                
+                                <p className="date"><BsCalendar3/> {e.time} | { e.day}</p>
+                            </div>
                              <div>
-                                
-                                <div><p>{e.message}</p></div>
-                                
-                                <p>{e.time} | { e.day}</p>
-                            </div>
-                             <div>
-                                <img src={e.image} width="50px" height="50px" alt="ReceiverImg" />
+                                <img className="receiverImg" src={e.image} width="50px" height="50px" alt="ReceiverImg" />
                             </div>
                     </div>      
                 }
@@ -44,6 +45,8 @@ export const Chats = () => {
             )}
            
             </div>
+
+            <div></div>
             
         </div>
     )

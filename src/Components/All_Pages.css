@@ -244,26 +244,47 @@ background-color:whitesmoke;
     padding: 3px 7px;
 }
 
-/* .user{
-    display: flex;
-    gap: 20px;
-}
-.userImg{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-} */
-.message{
-    background: skyblue;
-    padding: 1% 2%;
-    color: white;
-}
-.date{
-    display: flex;
-    gap: 5px;
-}
-.chatting{
+.conversation{
     display: flex;
     align-items: center;
-    gap:15px;
+    gap:20px;
+    
+}
+
+.receiverMessage{
+    /* border:1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:5px;
+    border-radius:8px 50px 50px;
+    background-color:#e1f3ff;
+    font-size:15px;
+}
+.senderMessage{
+    background-color:#e1f3ff;
+    /* border:1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:5px;
+    border-radius:50px 8px 50px 50px;
+    font-size:15px;
+    
+}
+
+.date{
+    margin: 0;
+    font-size:12px;
+    padding:10px;
+    color:gray;
+}
+
+.receiverImg{
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+.conversationBox{
+    
 }
