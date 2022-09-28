@@ -1,0 +1,80 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "image": "",
+      "title": "Wash the car",
+      "user": "Written by Bob",
+      "status": "Rejected"
+    },
+    {
+      "id": 2,
+      "image": "",
+      "title": "Task with dropdown menu",
+      "user": "By Johny",
+      "status": "Latest Task"
+    },
+    {
+      "id": 3,
+      "image": "",
+      "title": "Badge on the right task",
+      "user": "This task has show on hover actions!",
+      "status": "Latest Task"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "title": "Go grocery shopping",
+      "user": "A short description for this todo item",
+      "status": ""
+    },
+    {
+      "id": 5,
+      "image": "",
+      "title": "Wash the car",
+      "user": "Written by Bob",
+      "status": "Rejected"
+    },
+    {
+      "id": 6,
+      "image": "",
+      "title": "Service the car",
+      "user": "Written by Bob",
+      "status": "Planned"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "name": "Viggo",
+      "time": "11:01 AM",
+      "day": "Yesterday",
+      "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDIdIEoKmi101JPpAOEpsDz65yTL315CgWly8LwDI&s"
+    },
+    {
+      "id": 2,
+      "name": "John Wick",
+      "time": "11:01 AM",
+      "day": "Yesterday",
+      "message": "Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtkmN856coZk4VznBQur_FJQ6HSSynWjGiN1-9Y_C2T8LIXCHvRTLjH6Y3sfSlWgo5Fg&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Viggo",
+      "time": "11:01 AM",
+      "day": "Yesterday",
+      "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDIdIEoKmi101JPpAOEpsDz65yTL315CgWly8LwDI&s"
+    },
+    {
+      "id": 4,
+      "name": "John Wick",
+      "time": "11:01",
+      "day": "Yesterday",
+      "message": "Denouncing pleasure and praising pain was born and I will give you a complete.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtkmN856coZk4VznBQur_FJQ6HSSynWjGiN1-9Y_C2T8LIXCHvRTLjH6Y3sfSlWgo5Fg&usqp=CAU"
+    }
+  ]
+}

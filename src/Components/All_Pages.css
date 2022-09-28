@@ -322,3 +322,13 @@ outline:none;
     color:white;
     border-radius:5px;
 }
+
+.onlineStatus{
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background-color:#3ac57d;
+    position:absolute;
+    top: 35%;
+    left: 65%;
+}
