@@ -1,6 +1,5 @@
 
 import chatImg from "../Images/chats.png"
-import { chats } from "../data";
 import './All_Pages.css';
 import { BsCalendar3 } from "react-icons/bs";
 import { useState, useEffect } from "react";
@@ -22,14 +21,14 @@ export const Chats = () => {
 
         setMsg("");
 
-       if (msg!="") {
-           axios.post("https://influx-backend-server.herokuapp.com/chats",Message)
+       if (msg!=="") {
+           axios.post("http://localhost:5000/chats",Message)
         //    console.log(Message);
         }
     }
 
     useEffect(() => { 
-        axios.get("https://influx-backend-server.herokuapp.com/chats")
+        axios.get("http://localhost:5000/chats")
         .then((res)=>setData(res.data))
      }, [msg]);
 

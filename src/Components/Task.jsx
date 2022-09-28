@@ -1,6 +1,5 @@
 
 import taskImg from "../Images/Task.png";
-import { task } from "../data";
 import './All_Pages.css';
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -11,7 +10,7 @@ export const Task = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get("https://influx-backend-server.herokuapp.com/task")
+        axios.get("http://localhost:5000/task")
        .then((res)=>setData(res.data)) 
     },[])
 
