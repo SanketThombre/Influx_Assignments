@@ -2,10 +2,10 @@
 import taskImg from "../Images/Task.png";
 import { task } from "../data";
 import './All_Pages.css';
-import { useState } from "react";
+
 
 export const Task = () => {
-    const [clr,setClr] = useState("#fbd88a")
+    
     return (
         <div className="task">
             <div className="taskHeading">
@@ -17,13 +17,13 @@ export const Task = () => {
                 
                
                 <div className="box" key={e.id}>
-        <div className="MainBox">
+                    <div className="MainBox">
                         {e.status === "Latest Task" ? <div style={{ width: "3px", height: "40px", borderRadius: "7px", backgroundColor: `#95939e` }}></div>
                             :e.image?<div style={{ width: "3px", height: "40px", borderRadius: "7px", backgroundColor: `#00caf2` }}></div>
                             : <div style={{ width: "3px", height: "40px", borderRadius: "7px", backgroundColor: `#fbd88a` }}></div>} 
-            <input type="checkbox" />
+                        <input type="checkbox" />
                         <div className="taskBox">
-                            {e.image ? <img src={e.image } width="50px" height="50px" />:null}
+                            {e.image ? <img src={e.image } width="50px" height="50px" alt="PersonImg" /> :null}
                 <div className="title">
                     <h5>{e.title}</h5>
                     <p>{e.user}</p>
@@ -36,6 +36,12 @@ export const Task = () => {
         {e.status==="Latest Task"?<p className="latest">LATEST TASK</p>:null}
     </div>
             )}
+
+            <div className="TaskSaveBtn">
+                <button className="cancelBtn">Cancel</button>
+                <button className="saveBtn">Save</button>
+
+            </div>
 
         </div>
     )

@@ -44,9 +44,10 @@
             "status": "Planned"
         }
     ]
-    const chats=[
+    export const chats=[
         {
             "id": 1,
+            "name":"Viggo",
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -54,6 +55,7 @@
         },
         {
             "id": 2,
+            "name":"John Wick",
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
@@ -61,6 +63,7 @@
         },
         {
             "id": 3,
+            "name":"Viggo",
             "time": "11:01 AM",
             "day": "Yesterday",
             "message": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -68,6 +71,7 @@
         },
         {
             "id": 4,
+            "name":"John Wick",
             "time": "",
             "day": "Yesterday",
             "message": "Denouncing pleasure and praising pain was born and I will give you a complete and praising pain was born and I will give you a complete account of the system.",
