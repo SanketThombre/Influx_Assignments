@@ -29,7 +29,7 @@ export const Chats = () => {
     }
 
     useEffect(() => { 
-        axios.get("http://localhost:5000/chats")
+        axios.get("https://influx-backend-server.herokuapp.com/chats")
         .then((res)=>setData(res.data))
      }, [msg]);
 

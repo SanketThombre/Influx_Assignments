@@ -11,7 +11,7 @@ export const Task = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/task")
+        axios.get("https://influx-backend-server.herokuapp.com/task")
        .then((res)=>setData(res.data)) 
     },[])
 
