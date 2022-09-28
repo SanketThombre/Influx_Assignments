@@ -56,7 +56,7 @@ export const Chats = () => {
                                 
                                 <p className="date"><BsCalendar3/> {e.time} | { e.day}</p>
                             </div>
-                        </div> : <div className="conversation">
+                        </div> : <div className="senderConversation">
                              <div style={{textAlign: "right"}}>
                                 
                                 <div className="senderMessage"><p>{e.message}</p></div>
