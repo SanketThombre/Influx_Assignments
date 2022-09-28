@@ -13,7 +13,7 @@ export const Chats = () => {
                 <h4>Chat Box</h4>
             </div>
 
-            <div className="conversationBox" style={{ padding:"10px 25px"}}>
+            <div className="conversationBox">
 
             {chats.map((e) =>
              <div key={e.id} className="chatting">
@@ -46,7 +46,11 @@ export const Chats = () => {
            
             </div>
 
-            <div></div>
+            <div className="typeBox">
+                <input className="inputBox" type="text" placeholder="Write here and hit enter to send...." />
+                <button className="sendBtn">Send</button>
+                
+            </div>
             
         </div>
     )
