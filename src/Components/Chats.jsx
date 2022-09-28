@@ -23,7 +23,7 @@ export const Chats = () => {
         setMsg("");
 
        if (msg!="") {
-           axios.post("http://localhost:5000/chats",Message)
+           axios.post("https://influx-backend-server.herokuapp.com/chats",Message)
         //    console.log(Message);
         }
     }
